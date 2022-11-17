@@ -1,0 +1,26 @@
+{
+  "name": "ikechukwuokalia/http-error-pages.cwapp",
+  "description": "Custom HTTP Error pages",
+  "keywords": ["http", "errors", "400", "401", "403", "404", "500"],
+  "homepage": "https://github.com/ikechukwuokalia/http-error-pages.cwapp",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Ikechukwu Okalia",
+      "email": "dev@ikechukwuokalia.com"
+    }
+  ],
+  "require": {
+    "tymfrontiers-cdn/php-data" : ">=0.1@stable",
+    "tymfrontiers-cdn/php-instance-error" : ">=0.1@stable",
+    "tymfrontiers-cdn/php-validator" : ">=0.1@stable",
+    "tymfrontiers-cdn/php-generic" : ">=0.1@stable",
+    "tymfrontiers-cdn/php-multiform" : ">=0.1@stable"
+  },
+  "require-dev": {},
+  "autoload": {
+    "psr-4": {},
+    "files" : []
+  }
+}
