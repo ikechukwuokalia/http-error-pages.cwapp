@@ -1,8 +1,8 @@
 {
-  "name": "ikechukwuokalia/http-error-pages.cwapp",
+  "name": "ikechukwuokalia/http-errors.cwapp",
   "description": "Custom HTTP Error pages",
   "keywords": ["http", "errors", "400", "401", "403", "404", "500"],
-  "homepage": "https://github.com/ikechukwuokalia/http-error-pages.cwapp",
+  "homepage": "https://github.com/ikechukwuokalia/http-errors.cwapp",
   "type": "library",
   "license": "MIT",
   "authors": [
