@@ -1,0 +1,55 @@
+@import "colors";
+@import "fn";
+@import "../../../../base-color";
+
+@if variable-exists(bg-color) == false {
+  $bg-color: theme-color('asphalt', bg);
+}
+@if variable-exists(fg-color) == false {
+  $bg-color: theme-color('asphalt', fg);
+}
+@if variable-exists(text-color) == false {
+  $bg-color: #231F20;
+}
+
+#err-page-foot{
+  position: fixed;
+  left: 0; bottom: 0;
+  width: 100%;
+  margin: 0; padding: 12px 21px;
+  text-align: center
+}
+#err-page-head{
+  position: relative;
+  padding: 21px 28px;
+  #site-logo{
+    position: relative;
+    img{
+      height: 45px;
+      width: auto;
+    }
+  }
+}
+
+.http-error-info{
+  position: relative;
+  color: lighten(theme-color('grey', bg),7%);
+  .status-code{
+    font-size: 2em;
+    font-weight: bold;
+  }
+}
+.error-art{
+  img{
+    height: 180px;
+    width: auto;
+  }
+}
+.error-art-mob{
+  float: right;
+  margin: 0 0 12px 12px;
+  img{
+    height: 100px;
+    width: auto;
+  }
+}
